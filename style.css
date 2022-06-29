@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+background-color: hsl(233, 47%, 7%);
+
+}
+
+body{
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    width: 1000px;   
+    height: 400px;
+    margin-left: auto;
+        margin-right:auto;
+        margin-top: 200px;
+}
+.p1,.p2{
+
+min-width: none;width: 500px;
+padding: 40px;
+
+
+
+}
+.p1{
+background-color: inherit;
+color: white;
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+font-size: 27px;
+}
+.p2{
+    background-color: inherit;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    
+}
+.stats{
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+.temp,.comp,.quer{
+    background-color: inherit;
+padding: 40px;
+
+}
+
+.image{
+    width:500px;
+    height: 400px;
+    transform: translate(500px,-432px);
+    background-color: inherit;
+    /* filter: opacity(0.3) drop-shadow(0 0 0 hsl(277, 64%, 61%)) ; */
+    /* filter: saturate(); */
+
+}
+.img1{
+    height: 432px;
+    width: 500px;
+    /* background-color: hsl(277, 64%, 61%); */
+    /* background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
+    opacity: 0.4; */
+    filter: opacity(0.4) drop-shadow(0 0 2px hsl(277, 51%, 51%)) ;
+
+    
+}
+.colorit{color: hsl(277, 64%, 61%);
+background-color: inherit;
+}
+
